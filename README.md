@@ -1,8 +1,6 @@
 # Tarea 2
 
 ## Falta:
-- Recuerda borrar el archivo progreso.cpp 🧘‍♂️ - 
-
 1- README
 
     README.txt, que debe indicar las instrucciones de compilación en caso de ser
