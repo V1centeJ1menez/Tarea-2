@@ -1,6 +1,7 @@
 # Tarea 2
 
 ## Falta:
+- Recuerda borrar el archivo progreso.cpp 🧘‍♂️ - 
 
 1- README
 
