@@ -7,5 +7,13 @@ Ejecución del codigo: Visuall Studio Code
 ***
 EJECUCIÓN
 ***
-La ejecución se hizo por consola usando este comando:
-''' g++ main.cpp -o main -Wall '''
+La compilacion del codigo se hizo por consola usando este comando:
+``` 
+g++ main.cpp -o main -Wall 
+
+```
+y la ejecución de este con el comando:
+```
+./main
+
+```
