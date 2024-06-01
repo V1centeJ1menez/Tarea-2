@@ -1,0 +1,17 @@
+Vicente Jimenez
+ROL 202373523-K
+Paralelo 203
+
+-Implementacion de la clase super_string
+-Implementacion de los metodos de la clases
+-Creacion de funciones principales
+
+
+Joaquin Aguilar
+ROL 202373630-9
+Paralelo 203
+
+-Comentario de las funciones programadas y utilizadas.
+-Modificacion de la funcion INSERTAR para que esta solamente reciba caracteres validos.
+-Explicaciones y justificaciones sobre la complejidad de los algoritmos stringizar, reverso y recortar.
+

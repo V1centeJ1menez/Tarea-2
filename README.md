@@ -1,4 +1,11 @@
 # Tarea 2
-
-## Especificaciones:
-Compilado con el comando 'g++ main.cpp -o main -Wall' y ejectucado con el comando './main'.
+***
+AMBIENTE DE EJECUCIÓN USADO
+***
+Sistema operativo: Linux Ubuntu 23.10
+Ejecución del codigo: Visuall Studio Code
+***
+EJECUCIÓN
+***
+La ejecución se hizo por consola usando este comando:
+''' g++ main.cpp -o main -Wall '''
