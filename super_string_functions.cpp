@@ -480,7 +480,8 @@ void super_string::mostrar_raiz() {
 }
 /*****
 * void Insertar******
-* Inserta los caracteres de un string dado como nuevos nodos en el arbol
+* Inserta los caracteres de un string dado como nuevos nodos en el arbol, verifica si lo caracteres tienen caracteres invalidos y no
+* inserta aquellos que no pertenezcan al alfabeto ingles o sean caracteres especiales.
 ******
 * Input:
 * int l : indice de posicion en el cual se inserta el string dado.
