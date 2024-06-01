@@ -54,8 +54,6 @@ class super_string {
 
         void mover_indices(nodo* node, int start, int amount) ;
 
-        
-
     public:
 
         super_string();

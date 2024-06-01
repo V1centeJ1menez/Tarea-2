@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <cctype>
 #include "super_string_tda.hpp"
 
 using namespace std;
@@ -30,7 +31,7 @@ int super_string::calcular_altura_arbol(nodo* node){
         int altura_izquierda = calcular_altura_arbol(node->left);
         int altura_derecha = calcular_altura_arbol(node->right);
 
-        // La altura del árbol es la máxima altura de stringizarlos subárboles más 1
+        // La altura del árbol es la máxima altura de los subárboles más 1
         return 1 + max(altura_izquierda, altura_derecha);
     }
 }
@@ -494,18 +495,23 @@ void super_string::INSERTAR(int l, const string& S) {
         cout << "Posición de inserción inválida." << endl;
         return;
     }
-
+    int count_char_invalido = 0;
     // Primero, ajustamos los índices de los nodos existentes en el árbol para hacer espacio
     mover_indices(root, l, S.size());
 
     // Luego, recorremos los caracteres de S e insertamos cada uno como un nodo del árbol
     for (std::string::size_type i = 0; i < S.size(); ++i) {
-        nodo* newNode = new nodo(l + i, S[i]);
-        insertar_nodo(root, newNode);
+        char c = S[i];
+        if (isalpha(c)|| c ==' '|| c =='_'){
+            nodo* newNode = new nodo(l + i, S[i]);
+            insertar_nodo(root, newNode);
+        } else{
+            count_char_invalido ++;
+        }
     }
 
     // Actualizamos la longitud y la altura después de la inserción
-    length += S.size();
+    length += (S.size() - count_char_invalido);
     actualizar_altura();
 }
 
